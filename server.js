@@ -6,8 +6,8 @@ var express = require('express');
 var app = express();
 
 // Start server
-app.listen(80);
-console.log('API is running on port 80');
+app.listen(3002);
+console.log('API is running on port 3002');
 
   app.route('/api')
     .get(function(req, res, next) {
